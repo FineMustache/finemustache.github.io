@@ -1,63 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <script src="https://kit.fontawesome.com/98e3ef7958.js" crossorigin="anonymous"></script>
-    <title>Portfólio - Guilherme Mendes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c68ccb89e7.js" crossorigin="anonymous"></script>
+    <title>Guilherme Mendes</title>
 </head>
 <body>
-    <header>
-        <div class="nav">
-        </div>
-    </header>
-    <div class="page">
-        <div class="container">
-            <div class="perfil">
-                <img class="avatar" src="assets/foto.jpg" alt="">
-                <div class="perfil-info">
-                    <span class="name">Guilherme Mendes</span>
-                    <span class="desc">Brasileiro • 17 anos • Técnico em Desenvolvimento de Sistemas</span>
-                </div>
-                
+    <section class="top-section">
+        <div class="left-bg">
+            <div class="info-wrap">
+                <p class="name" onmouseenter="startTyping()" onmouseleave="startErasing()">Guilherme Mendes</p>
+                <p class="nickname pulse" id="nickname"></p>
             </div>
-            <div class="grid">
-                <div class="grid-i grid-i-1">
-                    <span class="grid-i-title">JAVA</span>
-                    <span class="grid-i-desc">Domínio da lógica e desenvolvimento de aplicações executáveis em console</span>
-                </div>
-                <div class="grid-i grid-i-2">
-                    <span class="grid-i-title">POO</span>
-                    <span class="grid-i-desc">Compreensão de diagramas UML e fundamentos</span>
-                </div>
-                <div class="grid-i grid-i-3">
-                    <span class="grid-i-title">Javascript</span>
-                    <span class="grid-i-desc">Direcionado à web (NodeJS e DOM)</span>
-                </div>
-                <div class="grid-i grid-i-4">
-                    <span class="grid-i-title">HTML</span>
-                    <span class="grid-i-desc">Criação de páginas web</span>
-                </div>
-                <div class="grid-i grid-i-5">
-                    <span class="grid-i-title">CSS</span>
-                    <span class="grid-i-desc">Estilização e Animação de páginas web</span>
-                </div>
-                <div class="grid-i grid-i-6">
-                    <span class="grid-i-title">Kotlin</span>
-                    <span class="grid-i-desc">Desenvolvimento Mobile</span>
-                </div>
+            <a href="https://github.com/finemustache" target="_blank"><span class="gh"><i class="fa-brands fa-github"></i> <span class="gh-url">/finemustache</span></span></a>
+        </div>
+        <div class="right-bg"></div>
+        <div class="pfp-wrap">
+            <img src="./assets/pfp.png" alt="" class="pfp">
+            <div class="personal-info">
+                <span id="age"><span class="bullet"></span> 18</span>
+                <span id="nac"><span class="bullet"></span> Brasileiro</span>
+                <span id="form"><span class="bullet"></span> Dev Full Stack</span>
             </div>
         </div>
-    </div>
-    <div class="skills">
-        <div class="skills-i">
-            <img src="assets/ghic.png" alt="">
-            <div class="skills-i-content">
-                <span onclick="window.open('https://www.github.com/finemustache')">Projetos e Contribuições</span>
+        <div class="inset-border-wrap">
+            <div class="inset-border-l"></div>
+            <div class="inset-border-r"></div>
+        </div>
+        <div class="background-elements">
+            <div class="circle-1">
+                <div class="c-solid"></div>
+                <div class="c-line"></div>
+            </div>
+            <div class="sharp-waves">
+                <div class="line-1">
+                    <div class="sq square-1"></div>
+                    <div class="sq square-2"></div>
+                    <div class="sq square-3"></div>
+                    <div class="sq square-4"></div>
+                    <div class="sq square-5"></div>
+                </div>
+                <div class="line-2">
+                    <div class="sq square-1"></div>
+                    <div class="sq square-2"></div>
+                    <div class="sq square-3"></div>
+                    <div class="sq square-4"></div>
+                    <div class="sq square-5"></div>
+                </div>
+            </div>
+            <div class="sharp-waves sp2">
+                <div class="line-1">
+                    <div class="sq square-1"></div>
+                    <div class="sq square-2"></div>
+                    <div class="sq square-3"></div>
+                    <div class="sq square-4"></div>
+                    <div class="sq square-5"></div>
+                </div>
+                <div class="line-2">
+                    <div class="sq square-1"></div>
+                    <div class="sq square-2"></div>
+                    <div class="sq square-3"></div>
+                    <div class="sq square-4"></div>
+                    <div class="sq square-5"></div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+    <section class="personal-section">
+        
+    </section>
+<script src="script.js"></script>
 </body>
 </html>
